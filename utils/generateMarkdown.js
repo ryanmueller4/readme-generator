@@ -18,13 +18,17 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "MIT") {
-    return `https://opensource.org/license/mit/`
+    return `https://opensource.org/license/mit/
+    `
   } else if (license === "IBM") {
-    return `https://www.ibm.com/docs/ja/datapower-gateway/7.5.0?topic=SS9H2Y_7.5.0/com.ibm.dp.doc/nodeslicense.htm`
+    return `https://www.ibm.com/docs/ja/datapower-gateway/7.5.0?topic=SS9H2Y_7.5.0/com.ibm.dp.doc/nodeslicense.htm
+    `
   } else if (license === "Apache") {
-    return `https://opensource.org/license/apache-2-0/`
+    return `https://opensource.org/license/apache-2-0/
+    `
   } else if (license === "Mozilla") {
-    return `https://opensource.org/license/mpl-2-0/`
+    return `https://opensource.org/license/mpl-2-0/
+    `
   } else if (license === "No license"){
     return ""
   }
@@ -70,9 +74,9 @@ function generateMarkdown(data) {
   
   ${data.usage}
   
-  ## Contribution
+  ## Credits
 
-  ${data.contribution}
+  ${data.Credits}
   
   ## License
 

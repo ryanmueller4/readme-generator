@@ -22,7 +22,7 @@ const questions = [{
     message: 'How do you use your application?',
   }, {
     type: 'input',
-    name: 'contribution',
+    name: 'Credits',
     message: 'Who are the contributors?',
   }, {
     type: 'input',
